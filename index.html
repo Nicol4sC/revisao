@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="classificação.css" />
+</head>
+
+<body>
+
+    <h1 id="titulo">classificação por idade</h1> <br><br>
+
+
+    <form onsubmit="return age(event)">
+
+        <label>Digite seu nome:</label><br>
+        <input type="text" nome="nome" id="nome" placeholder="Exemplo: Nicolas" /><br><br>
+        <label>Digite sua idade:</label><br>
+        <input type="text" nome="idade" id="idade" placeholder="Exemplo: 16" /><br><br>
+        <button type="submit" value="enviar">Avaliar a idade</button>
+    
+    </form>
+
+        <script src="classificaçao.js"></script>
+    
+        <div id="resultado"></div>
+    
+    </body>
+    
+    </html>
